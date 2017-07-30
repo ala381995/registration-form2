@@ -11,6 +11,13 @@ $(".btn").click(function(){
    var fGender=$("#fgndr");
 	var usrcity=$("#city");
 
+	
+	
+	
+	
+	
+	
+	
 	validate(fname);
 	validate(lname);
 	validate(email);
@@ -23,7 +30,7 @@ $(".btn").click(function(){
 });
 });
 
-
+/////////////////////////////////////////////////////building function
 function validate(id)
 {
 	var inputid=(id).val();
@@ -37,7 +44,7 @@ function validate(id)
 
 	}
 }
-////////
+//////////////////////
 function validgender(mGender,fGender)  
 { 
  
