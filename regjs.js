@@ -2,6 +2,7 @@ $(window).on('load', function () {
  $(".error").hide(); 
 
 $(".btn").click(function(){
+	/////////////////////defintion variables
 	var fname=$("#fname");
 	var lname=$("#lname");
 	var email=$("#email");
