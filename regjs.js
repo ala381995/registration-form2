@@ -18,7 +18,7 @@ $(".btn").click(function(){
 	
 	
 	
-	
+	////////////////////////////call function
 	validate(fname);
 	validate(lname);
 	validate(email);
