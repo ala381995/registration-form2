@@ -5,13 +5,44 @@ $(".btn").click(function(){
 	/////////////////////defintion variables
 	var fname=$("#fname");
 	var lname=$("#lname");
+	
+	
 	var email=$("#email");
-	var password=$("#pass");	
-	var cpass=$("#cpass");
+	var password=$("#pass");
+	
+	
+	
+	var cpass=$("#cpass");  iihpih;b
+	np;i[
 	var mGender=$("#mgndr");
    var fGender=$("#fgndr");
 	var usrcity=$("#city");
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
