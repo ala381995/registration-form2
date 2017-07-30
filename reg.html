@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="icon" href="images.png">
+	<link rel="stylesheet" type="text/css" href="reg.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+<body>
+<form id="reg" name="reg" >
+<div class="main">
+<div class="hdr"> Registration Form</div>
+
+<nav class="navigation">
+	
+<a href="Login.html">	<button >Go To Login</button> </a>
+
+<a href="home.html">	<button class=>Go To Home</button> </a>
+</nav>
+<div class="container">
+<div class="row">
+	<label class="label">First Name:*</label>
+	<input type="text" name="First_Name"  id="fname" class="inputbox" ">
+	<span id="fnameError"  class="error hide" >First Name requierd</span>
+</div>
+
+<div class="row">
+	<label class="label">Last Name:*</label>
+	<input type="text" name="Last_Name" id="lname" class="inputbox" ">
+     <span id="lnameError" class="error hide"> Last Name requierd</span>
+</div>
+
+<div class="row">
+	<label class="label">Email:*</label>
+		<input type="text" name="email" id="email" class="inputbox" ">
+     <span id="emailError" class="error hide"> email requierd</span>
+     <span id="validError" class="error"></span>
+     
+</div>
+
+<div class="row">
+	<label class="label">Password:*</label>
+	<input type="Password" name="Password" id="pass" class="inputbox" ">
+	<span id="passError" class="error hide" >Password Requierd</span>
+	<span id="validPass" class="error"> </span>
+</div>
+
+<div class="row">
+	<label class="label">Confirm Password:*</label>
+	<input type="Password" name="Confirm_Password" id="cpass" class="inputbox" ">
+	<span id="cpassError" class="error hide"> confirm password requierd</span>
+	<span id="dmatchError" class="error"> </span>
+
+
+</div>
+
+
+<div class="row">
+	<label class="gndrlbl" >Gender:*</label>
+	<div class="radiostyle">
+	<input type="radio" name="mgender" id="mgndr" class="gbox" ">Male
+	<input type="radio" name="fgender" id="fgndr" class="gbox" ">Female
+     <span id="GenderError" class="errorgndr hide"> select your gender please</span>
+	</div>
+	
+</div>
+
+<div class="row">
+	<label class="ctylbl">City:*</label>
+	<select class="mbox" name="city" id="city" ">
+	    <option value="option">select your city</option>
+		<option value="o1">Jenin</option>
+		<option value="o2">Nablus</option>
+		<option value="o3">Ramallah</option>
+		<option value="o4">Hebron</option>
+	</select>
+	<span id="cityerror" class="error">select your city please</span>
+</div>
+
+</div>
+<div>
+	<button class="btn" id="savebtn" type="submit"  value="Save" >Save</button>
+
+</div>
+</form>
+</body>
+</div>
+
+</html>
+<script type="text/javascript" src="regjs.js"></script>

@@ -1,0 +1,101 @@
+.row{
+    margin: 25px;
+}
+.label{
+
+}
+.inputbox{
+
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    margin-left: 290px;
+}
+}
+.hdr{
+margin-left: 444px;
+    font-size: 30px;
+
+
+}
+.navigation{
+	float: right;
+    width: 200px;
+    
+}
+.rbox{
+	margin-left: 100px;
+}
+.mbox{
+	margin-left: 260px;
+    width: 130px;
+}
+.main{
+	background-color: yellow;
+	height: 100%;
+
+}
+/*.valid
+{
+	display: inline;
+
+}*/
+.gbox{
+
+/*margin-left: 293px;*/
+}
+.error{
+	font-size: 12px;
+	margin-left: 303px;
+    color: red;
+}
+.invalid
+{
+border: 5px solid red;
+}
+.valid
+{
+	border: 5px solid green;
+
+}
+.errorgndr{
+	font-size: 12px;
+	color:red;
+	margin-left: 20px;
+}
+.hide
+{
+	display: none;
+}
+.show{
+	/*margin-left: 303px;*/
+	/*color: red;*/
+display: inline;
+
+
+}
+.ctylbl{
+
+}
+.container{
+width: 500px;
+margin-left: 300px;
+margin-top: 70px;
+
+}
+.btn{
+	    width: 300px;
+    margin-left: 444px;
+    color: red;
+    background-color: black;
+    height: 40px;
+    font-size: 25px
+    margin-left:290px;
+}
+.radiostyle
+{
+
+    margin-left: 290px;
+
+}
